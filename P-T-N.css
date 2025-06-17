@@ -1,0 +1,43 @@
+<style>/* ALL */
+  .nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 20px; 
+  }
+
+  .nav-button {
+    background-color: transparent; 
+    border: none; 
+    font-size: 18px; 
+    color: black; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+  }
+
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
+
+  .toc-button {
+    background-color: transparent; 
+    border: none; 
+    font-size: 18px; 
+    color: black; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    display: block; 
+    text-align: center; 
+    max-width: 200px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+  }
+
+  .toc-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
+</style>
